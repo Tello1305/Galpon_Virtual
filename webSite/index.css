@@ -1,0 +1,105 @@
+.cherry {
+    font-family: 'Cherry Bomb One', system-ui;
+    font-weight: 400;
+    color: white;
+    font-size: 100px;
+}
+
+.Cabin {
+    font-family: 'Cabin', system-ui;
+    font-size: 20px;
+}
+
+.img-fluid {
+    filter: blur(2px);
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Asegura que la imagen cubra el contenedor */
+    mask-image: linear-gradient(to top, transparent 0%, black 20%);
+    /* Máscara para el desvanecido */
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 20%);
+    /* Compatibilidad con navegadores WebKit */
+}
+
+.text2 {
+    color: #FF6A00;
+}
+
+.sections {
+    height: 250px;
+}
+
+.image27 {
+    width: 25rem;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 3 / 4;
+    border-radius: 5px;
+    height: 250px;
+}
+
+.div2 {
+    grid-area: 1 / 4 / 3 / 6;
+    border-radius: 5px;
+    height: 250px;
+}
+
+.div3 {
+    grid-area: 3 / 3 / 5 / 4;
+    border-radius: 5px;
+    height: 250px;
+}
+
+.div4 {
+    grid-area: 3 / 1 / 5 / 3;
+    border-radius: 5px;
+    height: 250px;
+}
+
+.div5 {
+    grid-area: 3 / 4 / 5 / 6;
+    border-radius: 5px;
+    height: 250px;
+}
+
+.div6 {
+    grid-area: 5 / 3 / 7 / 4;
+    border-radius: 5px;
+    height: 250px;
+}
+
+.div7 {
+    grid-area: 5 / 1 / 7 / 3;
+    border-radius: 5px;
+    height: 250px;
+}
+
+.div8 {
+    grid-area: 5 / 4 / 7 / 6;
+    border-radius: 5px;
+    height: 250px;
+}
+
+.image23 {
+    width: 16em;
+    right: -2rem;
+    position: absolute;
+}
+
+.botonGaleria {
+    right: 10px;
+    position: absolute;
+}
