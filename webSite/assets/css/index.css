@@ -1,0 +1,259 @@
+body {
+    background-color: #F6F6F6;
+}
+
+.bg-gradient1 {
+    background: #D98D00;
+    background: linear-gradient(90deg, rgba(217, 141, 0, 1) 0%, rgba(238, 94, 54, 1) 58%, rgba(255, 200, 99, 1) 100%);
+
+}
+
+.bg-gradient2 {
+    background: #FFEFE8;
+    background: linear-gradient(90deg, rgba(255, 239, 232, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    border-radius: 15px 15px 200px 200px;
+}
+
+.border {
+    border-radius: 100px 100px 0 0;
+    width: 70vw;
+}
+
+header {
+    height: 100vh;
+    background-image: url('../img/FONDO.png');
+    background-size: cover;
+}
+
+.font1 {
+    font-size: 5rem;
+    font-family: "Cherry Bomb One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.separador {
+    margin-top: -50px;
+}
+
+.font2 {
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.font3 {
+    font-size: 5rem !important;
+    font-family: "Cherry Bomb One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+    background: linear-gradient(90deg, rgba(217, 141, 0, 1) 0%, rgba(238, 94, 54, 1) 48%, rgba(255, 200, 99, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Para compatibilidad con algunos navegadores */
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.rounded1{
+    border-radius: 60px; 
+}
+
+
+.forma {
+    border-radius: 15px;
+    width: 10rem;
+    height: 220px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 12px;
+    padding: 20px 0;
+}
+
+.div1 {
+    grid-column: span 8 / span 8;
+    grid-row: span 4 / span 4;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.div2 {
+    grid-column: span 4 / span 4;
+    grid-row: span 6 / span 6;
+    grid-column-start: 9;
+    grid-row-start: 1;
+}
+
+.div3 {
+    grid-column: span 5 / span 5;
+    grid-row: span 4 / span 4;
+    grid-column-start: 1;
+    grid-row-start: 5;
+}
+
+.div4 {
+    grid-column: span 3 / span 3;
+    grid-row: span 4 / span 4;
+    grid-column-start: 6;
+    grid-row-start: 5;
+}
+
+.div5 {
+    grid-column: span 4 / span 4;
+    grid-row: span 2 / span 2;
+    grid-column-start: 9;
+    grid-row-start: 7;
+}
+
+.div6 {
+    grid-column: span 6 / span 6;
+    grid-row: span 3 / span 3;
+    grid-column-start: 1;
+    grid-row-start: 9;
+}
+
+.div7 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    grid-column-start: 7;
+    grid-row-start: 9;
+}
+
+.div8 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    grid-column-start: 10;
+    grid-row-start: 9;
+}
+
+.gridteme {
+    height: 100% !important;
+    overflow: hidden !important;
+    border-radius: 15px;
+    position: relative;
+    border: 1px solid #D98D00;
+    transition: all 0.3s ease;
+}
+
+.gridteme img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gridteme:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(217, 141, 0, 0.2);
+}
+
+.gridteme:hover img {
+    transform: scale(1.05);
+}
+
+.imagen27 {
+    width: 25rem;
+    margin-bottom: -25px;
+}
+
+.sectionGallery {
+    margin-top: -50px;
+}
+
+.fondoSvg {
+    z-index: -100;
+    margin-top: -400px;
+}
+
+.svg1 {
+    margin-bottom: -10px;
+}
+
+.btnGallery {
+    width: 100px;
+    padding: 5px !important;
+
+}
+
+.btnGallery:hover {
+    background-color: #D98D00;
+    color: #fff;
+}
+
+.btnGallery {
+    display: initial;
+    padding: 0;
+    margin-top: -10px;
+    bottom: 70px;
+    right: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.sectionBlog {
+    margin-top: -240px;
+}
+
+.fontBlog {
+    font-size: 4rem;
+
+}
+
+.cardBlog {
+    height: 550px;
+}
+
+.roundedBlog {
+    border-radius: 50px;
+    height: 300px;
+}
+
+.fondo2Svg {
+    z-index: -100;
+    margin-top: -170px;
+}
+
+.sectionNosotros {
+    margin-top: -50px;
+}
+
+.imagenNosotros {
+    background-image: url('../svg/Rectangle 68.svg');
+    background-size: cover;
+    width: 100%;
+}
+
+.custom-shape-divider-bottom-1747024142 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1747024142 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 134px;
+}
+
+.custom-shape-divider-bottom-1747024142 .shape-fill {
+    fill: #F8E71C;
+}
+
+
+footer {
+    background-image: url('../svg/Rectangle 55.svg');
+    background-size: cover;
+    height: 80vh;
+}
