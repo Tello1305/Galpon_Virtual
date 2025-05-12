@@ -11,7 +11,7 @@ body {
 .bg-gradient2 {
     background: #FFEFE8;
     background: linear-gradient(90deg, rgba(255, 239, 232, 1) 0%, rgba(255, 255, 255, 1) 100%);
-    border-radius: 15px 15px 200px 200px;
+    border-radius: 60px 60px 200px 200px;
 }
 
 .border {
@@ -57,8 +57,9 @@ header {
     background-clip: text;
     text-fill-color: transparent;
 }
-.rounded1{
-    border-radius: 60px; 
+
+.rounded1 {
+    border-radius: 60px;
 }
 
 
@@ -256,4 +257,38 @@ footer {
     background-image: url('../svg/Rectangle 55.svg');
     background-size: cover;
     height: 80vh;
+}
+
+.imgLogo {
+    width: 2rem;
+}
+
+.fontLogo {
+    font-family: "Cherry Bomb One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.sepFontLogo {
+    padding: 0;
+    margin: 0;
+}
+
+.strong1 {
+    padding-bottom: 5px;
+}
+
+li {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.roundedLi {
+    border-radius: 10px 10px 30px 30px;
+    background: #D98D00;
+    background: linear-gradient(90deg, rgba(217, 141, 0, 1) 0%, rgba(238, 94, 54, 1) 48%, rgba(255, 200, 99, 1) 100%);
+    color: white;
 }
